@@ -34,6 +34,8 @@ if ($resultado->num_rows > 0) {
 $conn->close();
 ?>
 
+<a href="cadastro.php">Inserir novo cadastro</a>
+
     
 </body>
 </html>
