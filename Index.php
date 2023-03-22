@@ -20,7 +20,7 @@ if ($conn->connect_error) {
     die("Falha na conexão: " . $conn->connect_error);
 }
 
-$sql = "SELECT nome, sobrenome, telefone FROM nome_da_tabela";
+$sql = "SELECT nome, sobrenome, telefone FROM agenda";
 $resultado = $conn->query($sql);
 
 if ($resultado->num_rows > 0) {
