@@ -10,9 +10,9 @@
     <h1>Agenda do prof. Edney</h1>
 <?php
 $servername = "localhost";
-$username = "usuario";
-$password = "senha";
-$dbname = "nome_do_banco_de_dados";
+$username = "id19705063_escola";
+$password = "S3nh4-b4nc0d4d0s";
+$dbname = "id19705063_db1";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
