@@ -8,6 +8,8 @@
 </head>
 <body>
     <h1>Cadastro Agenda</h1>
+
+    <a href="index.php">Exibir Agenda</a>
     
 </body>
 </html>
