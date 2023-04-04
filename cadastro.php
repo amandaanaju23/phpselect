@@ -27,18 +27,7 @@
 
 //variaveis da conexão do banco dados
 
-$servername = "localhost";
-$username = "id19705063_escola";
-$password = "S3nh4-b4nc0d4d0s";
-$dbname = "id19705063_db1"; // nome do banco de dados que será usado
-
-// Cria a conexão com o banco de dados
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Falha na conexão: " . $conn->connect_error);
-}
-
+include "conexao.php";
 // Verifica se o formulário foi enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Coleta os dados do formulário
