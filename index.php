@@ -7,7 +7,7 @@
     <title>Agenda</title>
 </head>
 <body>
-   <form method="post" action="">
+   <form method="post" action="redirecionador.php"> 
         <label>
             usuario
         </label> <br>
