@@ -16,7 +16,7 @@
             senha
         </label> <br>
         <input type="password" name="senha"/>
-        <input type="submit" value="botao"/>
+        <input type="submit" value="entrar" name="botao"/>
    </form>
 </body>
 </html>
