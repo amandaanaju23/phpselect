@@ -7,27 +7,17 @@
     <title>Agenda</title>
 </head>
 <body>
-    <h1>Agenda da anaju e amanda</h1>
-<?php
-include "conexao.php";
-
-$sql = "SELECT nome, sobrenome, telefone FROM agenda";
-$resultado = $conn->query($sql);
-
-if ($resultado->num_rows > 0) {
-    while ($linha = $resultado->fetch_assoc()) {
-        echo $linha["nome"] . " " . $linha["sobrenome"] . " - " . $linha["telefone"] . "<br>";
-    }
-} else {
-    echo "Nenhum registro encontrado.";
-}
-
-$conn->close();
-?>
-
-<a href="cadastro.php">Inserir novo cadastro</a>
-
-    
+   <form>
+        <label>
+            usuario
+        </label> <br>
+        <input type="text" name="nome"/>
+        <label>
+            senha
+        </label> <br>
+        <input type="password" name="senha"/>
+        <input type="submit" value="botao"/>
+   </form>
 </body>
 </html>
 
