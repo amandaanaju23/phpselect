@@ -7,7 +7,7 @@
     <title>Agenda</title>
 </head>
 <body>
-   <form>
+   <form method="post" action="">
         <label>
             usuario
         </label> <br>
