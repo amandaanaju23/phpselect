@@ -6,6 +6,7 @@
 
     $sql = "SELECT nome, senha FROM usuarios WHERE nome ='$usuario' AND senha ='$senha'";
     if($conn->query($sql)) {
+        echo "logincorreto":
         header ("Location: pagina_admin.php");
    }
 ?>
